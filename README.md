@@ -1,1 +1,2 @@
 # Lesson-24-Emoji-converter
+The code prompts the user to input a message, then splits the message into a list of words using `split(' ')` and prints the resulting list. It defines a dictionary `emoji` that maps certain text-based emojis (like `:)` and `:(`) to their corresponding emoji symbols. The `for` loop checks each word in the message, replacing it with the corresponding emoji if it exists in the dictionary, and appends the result to the `output` string, which is printed step by step.
